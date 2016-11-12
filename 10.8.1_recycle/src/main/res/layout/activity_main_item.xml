@@ -1,0 +1,10 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:orientation="horizontal"
+    android:layout_height="wrap_content" android:padding="5dp"
+    android:id="@+id/item_id" android:background="@drawable/item_bg">
+
+    <Button android:id="@+id/id_but" android:textSize="15sp"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="adds" android:layout_centerInParent="true"
+        android:focusable="false"/>
+</RelativeLayout>

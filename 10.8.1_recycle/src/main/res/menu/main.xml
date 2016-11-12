@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/add_id" android:title="添加数据"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/delete_id" android:title="删除数据"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/grid_view_id" android:title="GridView网格"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/list_view_id" android:title="ListView垂直"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/staggeredGrid_v_id" android:title="StaggeredGrid垂直"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/staggeredGrid_h_id" android:title="StaggeredGrid水平"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
